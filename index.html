@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="headWrapper">
+        <div class="logo">
+                <h2>ge<span>e.S</span>pa</h2>
+        </div>
+        <i class="bi bi-list hamburgerMenu" id="hamburgerMenu"></i>
+        <nav>
+            <div class="navLinks">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="bookBtn">
+                <a href="#">
+                    <button>Book Session</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="heroContent">
+                <h1 class="heroText" id="heroText">Lorem ipsum dolor, sit amet consectetur adipisicing</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, odio.</p>
+                <button>Book Session</button>
+                <button class="secBtn">Get to know us</button>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="imageContainer">
+                <img src="assets/daniel-olah-300secVdny4-unsplash.jpg" alt="Our Spa Building">
+            </div>
+            <div class="textContainer">
+                <h2 class="head">About Us</h2>
+                <p id="aboutText">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ex odio mollitia dicta, eveniet labore qui corporis debitis voluptates ipsa molestiae excepturi tenetur, maiores fugiat amet. Orem ipsum, dolor sit amet consectetur adipisicing elit. Ex odio mollitia dicta, eveniet labore qui corporis debitis voluptates ipsa molestiae excepturi tenetur. 
+                </p>
+                <br>
+                <p id="aboutText2"> 
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae at optio pariatur eum nobis earum.orem ipsum, dolor sit amet consectetur adipisicing elit. Ex odio mollitia dicta, eveniet labore qui corporis debitis voluptates ipsa molestiae excepturi tenetur
+                </p>
+                <button class="btn" id="readmoreBtn">Read More</button>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <h1 class="head">Our Services</h1>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel.</h6>
+            <div class="cards">
+                <div class="card">
+                    <i class="bi bi-1-square"></i>
+                     <h2>Lorem Ipsum</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, labore.</p>
+                    </div>
+                <div class="card">
+                    <i class="bi bi-2-square"></i>
+                     <h2>Lorem Ipsum</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, labore.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-3-square"></i>
+                     <h2>Lorem Ipsum</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, labore.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="head">Our Contact</h1>
+            <div class="contactWrapper">
+                    <div class="contactInfo">
+                        <h1>Reach Out And <br> <span>Book A Session</span> <br> With Us</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, vitae.</p>
+                        <p>Phone: +254 333 333 333</p>
+                        <p>Email: geespa@gmail.com</p>
+                    </div>
+                <div class="form">
+                    <form id="bookingForm">
+                        <label for="firstName">First Name:</label>
+                        <br>
+                        <input type="text" id="firstName" placeholder="Jane" required>
+                        <br><br>
+                        <label for="lastName">Last Name:</label>
+                        <br>
+                        <input type="text" id="lastName" placeholder="Doe" required>
+                        <br><br>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" placeholder="xoxo@gmail.com" required>
+                        <br><br>
+                        <label for="phone">Phone Number:</label>
+                        <br>
+                        <input type="tel" id="phone" placeholder="07xx xxx xxx" required>
+                        <br><br>
+                        <label for="booking">Describe the type of session you are booking:</label>
+                        <br>
+                        <textarea name="booking" id="booking" cols="80"
+                        rows="15"></textarea>
+                        
+                        <button class="btn" id="submission">Submit</button>
+                    </form>
+                    <div class="hide" id="popUp">
+                        <p id="popUpText"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; geespa 2026. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
